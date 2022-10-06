@@ -5,8 +5,8 @@ let
   };
   pkgs = import nixpkgs {};
   poetry2nix = import (fetchTarball {
-    # https://github.com/nix-community/poetry2nix/commits/master on 2022-10-04
-    url = "https://github.com/nix-community/poetry2nix/archive/c2ee667d2fd19f70a9ac256b81f2cfc248c4f04d.tar.gz";
+    # https://github.com/nix-community/poetry2nix/pull/736/commits on 2022-10-06
+    url = "https://github.com/nix-community/poetry2nix/archive/79f166b7eed97151e61028e78ad5bfb090b591d7.tar.gz";
   }) {
     pkgs = pkgs;
   };
